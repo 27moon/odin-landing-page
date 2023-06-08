@@ -6,6 +6,13 @@ body {
 header, .hero, footer {
     background-color: #1f2937;
 }
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*header*/
+
 .header-wrapper {
     background-color: #1f2937;
 }
@@ -14,6 +21,7 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1000px;
+    padding: 20px;
 }
 .logo-container {
     display: flex;
@@ -24,7 +32,7 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
-.header-links {
+.header-links, .hero-text  {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -39,4 +47,49 @@ a {
 }
 a:hover {
     color: cornflowerblue;
+}
+
+/*hero*/
+
+.hero-wrapper {
+    background-color: #1f2937;
+    display: flex;
+}
+.hero {
+    display: flex;
+    padding: 100px;
+}
+h1 {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.hero-button {
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #3882f6;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+.hero-button:hover {
+    color:#1f2937;
+}
+.left-text {
+    flex: 1;
+    margin-right: 15px;
+}
+.hero-img {
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: rgb(111, 116, 124);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.img-text {
+   padding-top: 90px;
 }
