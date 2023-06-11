@@ -152,3 +152,39 @@ h2 {
     font-weight: bold;
     margin:0;
 }
+
+/*sign up section*/
+.signup-wrapper {
+margin: 90px 0;
+}
+.signup {
+    background-color: #3882f6;
+    border-radius: 7px;
+}
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 40px 120px;
+}
+.signup-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+.signup-button {
+  border: solid 2px;
+  color:#e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3882f6;
+  border-color:#e5e7eb;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+.signup-button:hover {
+    color:#1f2937;
+}
