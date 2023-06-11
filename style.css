@@ -17,11 +17,11 @@ section {
     background-color: #1f2937;
 }
 header {
-    display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     max-width: 1000px;
     padding: 20px;
+    display: flex;
+    margin: 0 auto;
 }
 .logo-container {
     display: flex;
@@ -57,7 +57,7 @@ a:hover {
 }
 .hero {
     display: flex;
-    padding: 100px;
+    padding: 100px 0;
 }
 h1 {
     margin: 0;
@@ -92,4 +92,36 @@ h1 {
 }
 .img-text {
    padding-top: 90px;
+}
+
+/*random section*/
+.random-wrapper {
+    display: flex;
+}
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin: 60px 0;
+}
+.list {
+    display: flex;
+    gap: 40px;
+}
+.illustration-container {
+
+}
+.illustration {
+    max-width:120px;
+    height: 120px;
+    border: solid 2px;
+    border-color:  #3882f6;
+    border-radius: 10px;
+}
+.illustration-text {
+    max-width: 120px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(111, 116, 124);
+    padding-top: 15px;
 }
