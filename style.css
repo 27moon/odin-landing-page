@@ -7,8 +7,8 @@ header, .hero, footer {
     background-color: #1f2937;
 }
 section {
-    max-width: 1000px;
-    margin: 0 auto;
+    
+    
 }
 
 /*header*/
@@ -52,8 +52,9 @@ a:hover {
 /*hero*/
 
 .hero-wrapper {
-    background-color: #1f2937;
     display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .hero {
     display: flex;
@@ -96,7 +97,8 @@ h1 {
 
 /*random section*/
 .random-wrapper {
-    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 h2 {
     font-size: 36px;
@@ -107,6 +109,7 @@ h2 {
 .list {
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 .illustration {
     max-width:120px;
@@ -127,11 +130,11 @@ h2 {
 /*quote section*/
 
 .quote-wrapper {
-    background-color: #e5e7eb;
-}
-.quote {
     display: flex;
     justify-content: center;
+}
+.quote {
+    background-color: #e5e7eb;
 }
 .quote-container {
     max-width: 600px;
@@ -155,11 +158,13 @@ h2 {
 
 /*sign up section*/
 .signup-wrapper {
-margin: 90px 0;
-}
-.signup {
     background-color: #3882f6;
     border-radius: 7px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.signup {
+    margin: 90px 0;
 }
 .signup-container {
     display: flex;
@@ -183,8 +188,11 @@ margin: 90px 0;
   border-color:#e5e7eb;
   margin: 5px;
   border-radius: 8px;
-  padding: 10px 30px;
+  padding: 5px 25px;
 }
 .signup-button:hover {
     color:#1f2937;
 }
+
+/*footer*/
+
